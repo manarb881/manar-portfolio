@@ -50,7 +50,7 @@ function About() {
         <img
           className="w-[30%] 
           "
-          src="public/Manar_bouras.png"
+          src="/Manar_bouras.png"
           alt="Manar Bouras"
         />
       </div>
