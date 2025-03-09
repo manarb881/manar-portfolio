@@ -10,15 +10,15 @@ function About() {
     <>
       <div
         
-        className="mt-[1%] md:mt-[10%]  mb-[10%] w-full flex flex-col  md:flex-row justify-between text-white  items-center   p-1 border"
+        className="mt-[1%] md:mt-[10%]  mb-[10%] w-full flex flex-col  md:flex-row justify-between text-white  items-center   p-1 "
       >
-        <div className="font-gilroy  w-[85%] md:w-[50%] ml-10 flex flex-col border border-green-700 ">
+        <div className="font-gilroy  w-[85%] md:w-[50%] ml-10 flex flex-col">
          <AnimatedText  className="ml-[20%] "/>
-         <div  className='border border-red-700 h-auto'>
+         <div  className=' h-auto'>
            <h2 className='font-gilroy font-extrabold text-3xl md:text-5xl mb-5'>I'm Manar</h2>
           <p className="font-gilroy font-light text-lg md:text-xl mb-10  w-64  md:w-auto">I’m a Data Science and Artificial Intelligence student at the National Polytechnic School of Algiers, deeply passionate about Machine Learning, Data Analysis, and Web dev. I’m eager to explore this vast domain, continually learn, and improve every day.  If you’re interested in collaborating, feel free to reach out I’m always open to new opportunities and connections!</p>
           </div>
-          <div className="flex justify-center md:justify-start space-x-4 mb-5">
+          <div className="flex justify-center  space-x-4 mb-5 mr-[80%] md:mr-[90%]">
             <a
               href="https://www.linkedin.com/in/manar-bouras-aba26126a/"
               target="_blank"
