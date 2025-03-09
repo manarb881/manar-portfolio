@@ -52,7 +52,7 @@ function Navbar() {
          
          </div>
          {menuOpen && (
-        <div className="absolute top-16 left-[50%] w-[30%] bg-white text-gray-800 p-4 space-y-4 shadow-md z-10">
+        <div className="absolute top-16 left-[50%] w-[35%] bg-white text-gray-800 p-4 space-y-4 shadow-md z-10">
           <a
             href="#top"
             className="block hover:text-pink-500 transition-all" 
