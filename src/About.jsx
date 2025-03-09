@@ -39,7 +39,7 @@ function About() {
           </div>
 
           <a
-            className="block font-gilroy font-extrabold text-4l w-[70%] md:w-[20%] mt-10 text-white rounded-md p-2 transition-all duration-900 bg-gradient-to-r from-[#66FF00] to-[#004d00] bg-opacity-90 hover:scale-105"
+            className="block font-gilroy font-extrabold text-4l w-[80%] md:w-[20%] mt-10 text-white rounded-md p-2 transition-all duration-900 bg-gradient-to-r from-[#66FF00] to-[#004d00] bg-opacity-90 hover:scale-105"
             href="#CV"
           >
             DOWNLOAD CV
