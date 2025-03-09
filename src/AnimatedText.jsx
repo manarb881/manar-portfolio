@@ -7,7 +7,7 @@ function AnimatedText() {
 
   return (
     <div
-      className="   text-white  w-[60%] "
+      className="   text-white  w-[60%] mt-[40%] md:mt-[10%]"
       role="region"
       aria-label="Welcome Animation"
     >

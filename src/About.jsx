@@ -10,13 +10,13 @@ function About() {
     <>
       <div
         
-        className="mt-[10%] mb-[10%] w-full flex flex-row justify-between text-white  items-center   p-1"
+        className="mt-[15%] md:mt-[10%]  mb-[10%] w-full flex flex-row justify-between text-white  items-center   p-1"
       >
         <div className="font-gilroy w-[50%] ml-10 flex flex-col  ">
-         <AnimatedText  className="ml-[20%]"/>
+         <AnimatedText  className="ml-[20%] "/>
          <div >
            <h2 className='font-gilroy font-extrabold text-3xl md:text-5xl mb-5'>I'm Manar</h2>
-          <p className="font-gilroy font-light text-xl mb-10">I’m a Data Science and Artificial Intelligence student at the National Polytechnic School of Algiers, deeply passionate about Machine Learning, Data Analysis, and Web dev. I’m eager to explore this vast domain, continually learn, and improve every day.  If you’re interested in collaborating, feel free to reach out I’m always open to new opportunities and connections!</p>
+          <p className="font-gilroy font-light text-lg md:text-xl mb-10">I’m a Data Science and Artificial Intelligence student at the National Polytechnic School of Algiers, deeply passionate about Machine Learning, Data Analysis, and Web dev. I’m eager to explore this vast domain, continually learn, and improve every day.  If you’re interested in collaborating, feel free to reach out I’m always open to new opportunities and connections!</p>
           </div>
           <div className="flex justify-center md:justify-start space-x-4 mb-5">
             <a
@@ -48,7 +48,7 @@ function About() {
 
         {/* Image with fade-in effect */}
         <img
-          className="w-[30%] 
+          className="w-[50%] md:w-[30%]
           "
           src="/Manar_bouras.png"
           alt="Manar Bouras"

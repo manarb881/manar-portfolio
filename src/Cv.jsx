@@ -6,7 +6,7 @@ function Cv() {
       
       className=" flex items-center justify-center py-5 px-4  h-600 mb-[10%]"
     >
-      <div className="w-[35%] hover:scale-15 mx-auto  backdrop-blur-md rounded-3xl hover:border hover: border-lime-400  md:p-12 text-center bg-green-900/50 p-8 r shadow-2xl transition-opacity duration-1000">
+      <div className="w-[55%%] md:w-[35%] hover:scale-15 mx-auto  backdrop-blur-md rounded-3xl hover:border hover: border-lime-400  md:p-12 text-center bg-green-900/50 p-8 r shadow-2xl transition-opacity duration-1000">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
           My CV
         </h1>
