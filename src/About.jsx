@@ -16,7 +16,7 @@ function About() {
          <AnimatedText  className="ml-[20%] "/>
          <div  className='border border-red-700 '>
            <h2 className='font-gilroy font-extrabold text-3xl md:text-5xl mb-5'>I'm Manar</h2>
-          <p className="font-gilroy font-light text-lg md:text-xl mb-10  w-80  md:w-auto">I’m a Data Science and Artificial Intelligence student at the National Polytechnic School of Algiers, deeply passionate about Machine Learning, Data Analysis, and Web dev. I’m eager to explore this vast domain, continually learn, and improve every day.  If you’re interested in collaborating, feel free to reach out I’m always open to new opportunities and connections!</p>
+          <p className="font-gilroy font-light text-lg md:text-xl mb-10  w-64  md:w-auto">I’m a Data Science and Artificial Intelligence student at the National Polytechnic School of Algiers, deeply passionate about Machine Learning, Data Analysis, and Web dev. I’m eager to explore this vast domain, continually learn, and improve every day.  If you’re interested in collaborating, feel free to reach out I’m always open to new opportunities and connections!</p>
           </div>
           <div className="flex justify-center md:justify-start space-x-4 mb-5">
             <a
