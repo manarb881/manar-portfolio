@@ -8,19 +8,21 @@ import {
   RiJavascriptLine, 
   RiBarChartLine 
 } from 'react-icons/ri';
-import { SiCplusplus, SiMysql } from 'react-icons/si';
+import { SiCplusplus, SiMysql,SiPhp } from 'react-icons/si';
 import { FaPython } from "react-icons/fa";
 
 
 const skills = [
   { name: 'React', icon: <RiReactjsLine />, color: '#61DAFB' }, // React cyan blue
   { name: 'Tailwind', icon: <RiTailwindCssLine />, color: '#06B6D4' }, // Tailwind teal
-  { name: 'C++', icon: <SiCplusplus />, color: '#00599C' }, // C++ dark blue
+  { name: 'C/C++', icon: <SiCplusplus />, color: '#00599C' }, // C++ dark blue
   { name: 'Java', icon: <RiJavaLine />, color: '#F89820' }, // Java orange
-  { name: 'Python', icon: <FaPython />, color: '#3776AB' }, // Python blue
+  { name: 'django', icon: <FaPython />, color: '#3776AB' }, // Python blue
   { name: 'JavaScript', icon: <RiJavascriptLine />, color: '#F7DF1E' }, // JavaScript yellow
   { name: 'MySQL', icon: <SiMysql />, color: '#00758F' }, // MySQL teal
   { name: 'Power BI', icon: <RiBarChartLine />, color: '#4ADE80' }, // Chart green
+  { name: 'PHP', icon: <SiPhp />, color: '#777BB4' }, // PHP purple
+  
 ];
 
 function Technologies() {
@@ -32,7 +34,7 @@ function Technologies() {
       <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 font-gilroy">
         Technologies
       </h1>
-      <div className="grid grid-cols-3 md:grid-cols-8  gap-16 m-10 ">
+      <div className="grid grid-cols-3 md:grid-cols-9  gap-16 m-10 ">
         {skills.map((skill, index) => (
           <div
             key={index}

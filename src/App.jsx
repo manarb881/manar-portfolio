@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import './App.css';
 import './fonts.css';
 import Navbar from './Navbar';
@@ -27,13 +28,39 @@ function App() {
     <>
       <div className="w-full bg-gradient-to-br from-green-950 to-black flex flex-col gap-6">
         <Navbar />
-        <About id="About" />
-        <Cv />
-        <Technologies id="Skills" className="m-5" /> {/* Reduced from m-40 to m-10 */}
-         
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+        >
+          <About id="About" />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
+          <Cv />
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
+          <Technologies id="Skills" className="m-5" />
+        </motion.div>
 
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 font-gilroy text-center">Projects</h1>
-        <div id="Projects" className="grid grid-cols-1 md:grid-cols-2 gap-10 m-10">
+        <motion.div
+          id="Projects"
+          className="grid grid-cols-1 md:grid-cols-2 gap-10 m-10"
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           {challenges.map((challenge, index) => (
             <Card
               key={index}
@@ -42,7 +69,7 @@ function App() {
               challengeLink={challenge.challengeLink}
             />
           ))}
-        </div>
+        </motion.div>
         <Footer />
       </div>
     </>
