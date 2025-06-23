@@ -44,7 +44,7 @@ function About() {
               <FiMail size={24} />
             </a>
             <a
-              href="https://www.kaggle.com/your-kaggle-username"
+              href="https://www.kaggle.com/manarbouras"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lime-400 hover:text-lime-300 transition-colors"
@@ -52,7 +52,7 @@ function About() {
               <FaKaggle size={24} />
             </a>
             <a
-              href="https://stackoverflow.com/users/your-stackoverflow-id"
+              href="https://stackoverflow.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lime-400 hover:text-lime-300 transition-colors"
