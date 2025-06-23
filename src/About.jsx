@@ -7,7 +7,7 @@ function About() {
   return (
     <>
       <div
-        className="relative mt-[1%] md:mt-[5%] mb-[10%] w-full flex flex-col md:flex-row justify-between text-white items-center p-1"
+        className="relative mt-[-10%] md:mt-[5%] mb-[10%] w-full flex flex-col md:flex-row justify-between text-white items-center p-1"
       >
         {/* Decorative grid patches */}
 
@@ -15,7 +15,7 @@ function About() {
           <AnimatedText className="" />
           <div className="h-auto">
             <h2 className="font-gilroy font-extrabold text-3xl md:text-5xl mb-5">I'm Manar</h2>
-            <p className="font-gilroy font-light text-lg md:text-xl mb-10 w-64 md:w-auto">
+            <p className="font-gilroy font-light text-lg md:text-xl mb-10 w-80 md:w-auto">
               I'm a{' '}
               <span className="bg-gradient-to-r from-lime-400 to-green-400 bg-clip-text text-transparent font-bold">
                 Data Science and Artificial Intelligence student
@@ -26,7 +26,7 @@ function About() {
               always open to new opportunities and connections!
             </p>
           </div>
-          <div className="flex justify-center space-x-4 mb-5 mr-[81%] md:mr-[81%]">
+          <div className="flex justify-center space-x-4 mb-5 mr-[70%] md:mr-[81%]">
             <a
               href="https://www.linkedin.com/in/manar-bouras-aba26126a/"
               target="_blank"
@@ -61,7 +61,7 @@ function About() {
             </a>
           </div>
           <a
-            className="block z-10 font-gilroy font-extrabold text-2xl w-[40%] md:w-[30%] mt-10 text-white rounded-md p-2 transition-all duration-300 from-[#66FF00] to-[#004d00] bg-opacity-90 hover:scale-105 !bg-gradient-to-r !ring-4 !ring-[#66FF00] hover:ring-6 focus:outline-none"
+            className="block z-10 font-gilroy font-extrabold text-2xl w-[50%] md:w-[30%] mt-10 text-white rounded-md p-2 transition-all duration-300 from-[#66FF00] to-[#004d00] bg-opacity-90 hover:scale-105 !bg-gradient-to-r !ring-4 !ring-[#66FF00] hover:ring-6 focus:outline-none"
             href="#CV"
           >
             DOWNLOAD CV

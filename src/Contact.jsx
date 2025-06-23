@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="md:ml-[3%] w-full py-10 bg-transparent flex flex-col md:flex-row items-center justify-center gap-3 relative z-10">
+    <div className="ml-5 mr-10 md:ml-[3%] md:w-full py-10 bg-transparent flex flex-col md:flex-row items-center justify-center gap-3 relative z-10">
       <div className="w-full md:w-1/2 flex flex-col items-center">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 font-gilroy text-center">
           Contact Me
