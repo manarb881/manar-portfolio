@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="ml-5 mr-10 md:ml-[3%] md:w-full py-10 bg-transparent flex flex-col md:flex-row items-center justify-center gap-3 relative z-10">
+    <div id="Contact" className="ml-5 mr-10 md:ml-[3%] md:w-full py-10 bg-transparent flex flex-col md:flex-row items-center justify-center gap-3 relative z-10">
       <div className="w-full md:w-1/2 flex flex-col items-center">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 font-gilroy text-center">
           Contact Me
@@ -77,7 +77,8 @@ const Contact = () => {
       </div>
       <div className="w-full md:w-1/2 flex items-center justify-center mt-10 md:mt-0">
         <div className="bg-gradient-to-br from-green-900/60 to-black/80 border border-lime-400 rounded-2xl p-8 shadow-xl max-w-md text-white font-gilroy text-lg md:text-xl text-center">
-          If you're interested in collaborating on a project or have a job opportunity that matches my interests in <span className="text-lime-400 font-bold">Data Science</span>, <span className="text-lime-400 font-bold">AI</span>, or <span className="text-lime-400 font-bold">Web Development</span>, I'd love to hear from you!
+         If you're interested in collaborating on AI research or have a research internship opportunity in <span className="text-lime-400 font-bold">Computer Vision</span>, <span className="text-lime-400 font-bold">Machine Learning</span>, or <span className="text-lime-400 font-bold">Artificial Intelligence</span>, I'd love to connect. I'm also seeking opportunities that will help me prepare for a future <span className="text-lime-400 font-bold">PhD</span>.
+
         </div>
       </div>
     </div>

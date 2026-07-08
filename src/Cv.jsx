@@ -8,8 +8,8 @@ function Cv() {
     setTimeout(() => {
       setIsLoading(false); // Hide spinner after a delay
       const link = document.createElement("a");
-      link.href = "/CV_Hakhathon1.pdf";
-      link.download = "CV_Hakhathon1.pdf";
+      link.href = "/cv_BOURAS_MANAR_.pdf";
+      link.download = "cv_BOURAS_MANAR_.pdf";
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);

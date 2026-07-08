@@ -20,7 +20,7 @@ function Navbar() {
           </button>
 
           {/* Navbar Links (Large Screens) */}
-          <div className="hidden md:flex md:flex-row md:justify-between w-[40%] font-gilroy font-extrabold">
+          <div className="hidden md:flex md:flex-row md:gap-4 lg:gap-6 font-gilroy font-extrabold">
             <div className="relative group">
               <a
                 className="block text-white rounded-md p-2 transition-all duration-300 hover:bg-[#66FF00] hover:text-black"
@@ -36,6 +36,24 @@ function Navbar() {
                 href="#CV"
               >
                 CV
+              </a>
+            </div>
+
+            <div className="relative group">
+              <a
+                className="block text-white rounded-md p-2 transition-all duration-300 hover:bg-[#66FF00] hover:text-black"
+                href="#Experience"
+              >
+                Experience
+              </a>
+            </div>
+
+            <div className="relative group">
+              <a
+                className="block text-white rounded-md p-2 transition-all duration-300 hover:bg-[#66FF00] hover:text-black"
+                href="#Research"
+              >
+                Research
               </a>
             </div>
 
@@ -56,11 +74,20 @@ function Navbar() {
                 Projects
               </a>
             </div>
+
+            <div className="relative group">
+              <a
+                className="block text-white rounded-md p-2 transition-all duration-300 hover:bg-[#66FF00] hover:text-black"
+                href="#Contact"
+              >
+                Contact
+              </a>
+            </div>
           </div>
 
           {/* Hamburger Dropdown Menu (Small Screens) */}
           {menuOpen && (
-            <div className="absolute top-16 left-[50%] w-[35%] bg-white text-gray-800 p-4 space-y-4 shadow-md z-10">
+            <div className="absolute top-16 left-[50%] w-[45%] bg-white text-gray-800 p-4 space-y-3 shadow-md z-10 rounded-md">
               <a
                 href="#top"
                 className="block hover:text-[#66FF00] transition-all"
@@ -76,11 +103,25 @@ function Navbar() {
                 CV
               </a>
               <a
+                href="#Experience"
+                className="block hover:text-[#66FF00] transition-all"
+                onClick={() => setMenuOpen(false)}
+              >
+                Experience
+              </a>
+              <a
+                href="#Research"
+                className="block hover:text-[#66FF00] transition-all"
+                onClick={() => setMenuOpen(false)}
+              >
+                Research
+              </a>
+              <a
                 href="#Skills"
                 className="block hover:text-[#66FF00] transition-all"
                 onClick={() => setMenuOpen(false)}
               >
-                Technologies
+                Skills
               </a>
               <a
                 href="#Projects"
@@ -88,6 +129,13 @@ function Navbar() {
                 onClick={() => setMenuOpen(false)}
               >
                 Projects
+              </a>
+              <a
+                href="#Contact"
+                className="block hover:text-[#66FF00] transition-all"
+                onClick={() => setMenuOpen(false)}
+              >
+                Contact
               </a>
             </div>
           )}

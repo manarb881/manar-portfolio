@@ -20,10 +20,8 @@ function About() {
               <span className="bg-gradient-to-r from-lime-400 to-green-400 bg-clip-text text-transparent font-bold">
                 Data Science and Artificial Intelligence student
               </span>{' '}
-              at the National Polytechnic School of Algiers, deeply passionate about Machine Learning,
-              Data Analysis, and Web dev. I'm eager to explore this vast domain, continually learn, and
-              improve every day. If you're interested in collaborating, feel free to reach out I'm
-              always open to new opportunities and connections!
+              at the National Polytechnic School of Algiers, passionate about Artificial Intelligence, especially Computer Vision and Machine Learning. Curious by nature and rigorous in my work, I enjoy exploring new research ideas, learning continuously, and solving challenging problems. Always open to collaborations, research opportunities, and meaningful discussions.
+
             </p>
           </div>
           <div className="flex justify-center space-x-4 mb-5 mr-[70%] md:mr-[81%]">
